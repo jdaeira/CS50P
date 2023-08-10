@@ -1,6 +1,11 @@
 # Ask user for their name
 name = input("What's your name? ").strip().title()
 
+# Split name at the space in between into first and last name
+first, last = name.split(" ")
+
+print(f"Hello , {first} {last}")
+
 # Remove whitespace from string
 name = name.strip()
 
